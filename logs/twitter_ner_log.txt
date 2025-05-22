@@ -1,0 +1,6 @@
+2025-05-14 12:34:14,154 - ERROR - tweets.csv not found. Run twitter_scraper.py first.
+2025-05-14 23:07:21,243 - ERROR - No such comm target registered: jupyter.widget.control
+2025-05-14 23:07:21,257 - WARNING - No such comm: 5f256137-cb4f-4820-914d-de49c4e59759
+2025-05-17 20:28:29,943 - ERROR - No 'text' column in tweets.csv
+2025-05-18 01:00:32,884 - ERROR - No such comm target registered: jupyter.widget.control
+2025-05-18 01:00:32,889 - WARNING - No such comm: 845cbf0f-81bb-40cd-86ef-bf22617389f2

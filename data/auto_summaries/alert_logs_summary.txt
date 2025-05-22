@@ -1,0 +1,24 @@
+File: alert_logs.csv
+Columns: Frame, Time (s), Timestamp, Persons Detected, Alert
+
+Sample data:
+ Frame  Time (s) Timestamp  Persons Detected           Alert
+     0      0.00   0:00:00                 2 Person Detected
+     1      0.12   0:00:00                 2 Person Detected
+     2      0.25   0:00:00                 2 Person Detected
+     3      0.38   0:00:00                 2 Person Detected
+     4      0.50   0:00:00                 3 Person Detected
+
+Basic stats:
+             Frame    Time (s) Timestamp  Persons Detected            Alert
+count   100.000000  100.000000       100        100.000000              100
+unique         NaN         NaN        14               NaN                1
+top            NaN         NaN   0:00:00               NaN  Person Detected
+freq           NaN         NaN         8               NaN              100
+mean     55.130000    6.891200       NaN          1.510000              NaN
+std      33.233382    4.154098       NaN          0.703455              NaN
+min       0.000000    0.000000       NaN          1.000000              NaN
+25%      26.750000    3.347500       NaN          1.000000              NaN
+50%      54.500000    6.815000       NaN          1.000000              NaN
+75%      83.250000   10.410000       NaN          2.000000              NaN
+max     111.000000   13.880000       NaN          4.000000              NaN

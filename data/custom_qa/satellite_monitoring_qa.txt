@@ -1,0 +1,8 @@
+Q: How was satellite imagery used in the project?
+A: We analyzed Sentinel-2 satellite images for India's borders using RGB band analysis and DBSCAN clustering to identify illegal crossing hotspots. Heatmaps were created using Folium and Kepler.gl for visualization.
+
+Q: What are the main findings from satellite monitoring?
+A: Recurring hotspots were found in riverine areas where physical barriers are weak. Seasonal trends showed higher illegal crossings during dry seasons.
+
+Q: How was real-time monitoring achieved?
+A: Through automated pipelines ingesting new satellite data daily, integrated with alert systems for border patrol units.

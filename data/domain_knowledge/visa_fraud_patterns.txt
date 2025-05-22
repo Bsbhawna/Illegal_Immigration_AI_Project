@@ -1,0 +1,16 @@
+Visa Fraud Patterns:
+
+- Analysis of visa fraud cases from BOI data and fake document detection shows:
+- Majority of fraudulent visas linked to fake employment offers and educational admissions.
+- Common patterns include reused documents, forged signatures, and mismatched biometric data.
+- Fraudulent applicants often originate from countries with high illegal immigration attempts.
+- AI model for signature verification showed 85% accuracy in detecting forged signatures.
+- Social media monitoring revealed online networks offering fake visa services.
+- Increased use of synthetic identity documents post-2020.
+- Visa fraud cases rose by 22% in 2022 compared to 2019.
+- Collaboration between immigration authorities and AI detection tools reduced some fraud incidents.
+
+Future Directions:
+- Expand AI-powered OCR and biometrics screening.
+- Cross-check social media profiles during visa vetting.
+- Public awareness campaigns about risks of fake visa agents.

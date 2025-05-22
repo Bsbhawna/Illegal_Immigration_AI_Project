@@ -1,0 +1,16 @@
+Dark Web Monitoring:
+
+- Used Ahmia API and Telegram monitoring to track illegal immigration related chatter.
+- Identified underground forums offering forged documents and smuggling routes.
+- Keywords tracked: "fake visa", "border crossing", "illegal migration", "document forgery".
+- Dark web data highlighted emerging threats before appearing in mainstream channels.
+- Alerts integrated with law enforcement databases.
+- Continuous monitoring detected shifts in smuggling tactics.
+
+Challenges:
+- Encryption and anonymity limit data access.
+- High noise in data requires AI filtering.
+
+Recommendations:
+- Develop specialized AI models for dark web OSINT.
+- Increase inter-agency data sharing.

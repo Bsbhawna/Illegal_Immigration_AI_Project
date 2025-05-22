@@ -1,0 +1,24 @@
+File: alert_log.csv
+Columns: Frame, Timestamp, Alert_Triggered
+
+Sample data:
+ Frame      Timestamp  Alert_Triggered
+     0        0:00:00                1
+     1 0:00:00.125000                0
+     2 0:00:00.250000                0
+     3 0:00:00.375000                0
+     4 0:00:00.500000                0
+
+Basic stats:
+             Frame Timestamp  Alert_Triggered
+count   100.000000       100       100.000000
+unique         NaN       100              NaN
+top            NaN   0:00:00              NaN
+freq           NaN         1              NaN
+mean     49.500000       NaN         0.040000
+std      29.011492       NaN         0.196946
+min       0.000000       NaN         0.000000
+25%      24.750000       NaN         0.000000
+50%      49.500000       NaN         0.000000
+75%      74.250000       NaN         0.000000
+max      99.000000       NaN         1.000000

@@ -1,0 +1,8 @@
+Q: What AI techniques were used for border surveillance?
+A: We used YOLOv8 and DeepSORT for CCTV footage analysis to detect and track individuals near border zones. Graph Neural Networks (GNNs) helped model crossing routes and predict high-risk areas.
+
+Q: What are the insights from border surveillance data?
+A: The top 5 most crowded frames were identified with multiple persons attempting crossing. Frequent crossings occur near porous riverbanks and weak fencing zones.
+
+Q: How was data integrated for enforcement?
+A: Data from CCTV, satellite imagery, and social media were combined in the dashboard to assist real-time decision making.

@@ -1,0 +1,18 @@
+Geospatial AI Insights:
+
+- Satellite imagery (Sentinel-2, Google Earth Engine) monitored 20 km border zones continuously.
+- DBSCAN clustering identified recurring hotspots correlated with illegal crossings.
+- RGB band analysis helped distinguish human activity patterns from natural background.
+- H3 hexagonal clustering improved spatial resolution for border segment analysis.
+- Graph Neural Networks predicted likely crossing routes based on terrain and prior incidents.
+- Heatmaps generated via Folium and Kepler.gl provided visual dashboards for enforcement.
+- AI detected anomalies such as sudden gatherings, makeshift bridges, and campfires.
+- Real-time geospatial data pipeline enabled near-instant alerts for border patrol units.
+
+Challenges:
+- Cloud cover and dense foliage sometimes hinder satellite visibility.
+- Need to fuse multispectral data for better accuracy.
+
+Recommendations:
+- Deploy AI-powered drones to supplement satellite data.
+- Increase training data for GNNs with live incident reports.

@@ -1,0 +1,27 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='yolov5_custom',
+    version='0.1.0',
+    packages=find_packages(),
+    install_requires=[
+        'gitpython>=3.1.30',
+        'matplotlib>=3.3',
+        'numpy>=1.23.5',
+        'opencv-python>=4.1.1',
+        'pillow>=10.3.0',
+        'psutil',
+        'PyYAML>=5.3.1',
+        'requests>=2.32.2',
+        'scipy>=1.4.1',
+        'thop>=0.1.1',
+        'torch>=1.8.0',
+        'torchvision>=0.9.0',
+        'tqdm>=4.66.3',
+        'ultralytics>=8.2.34',
+        'pandas>=1.1.4',
+        'seaborn>=0.11.0',
+        'setuptools>=70.0.0',
+    ],
+)
+

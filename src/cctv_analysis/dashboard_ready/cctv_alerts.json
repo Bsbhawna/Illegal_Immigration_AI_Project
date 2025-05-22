@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2025-05-18T20:30:00.790242",
+        "frame": 0,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.790242",
+        "frame": 1,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.791767",
+        "frame": 2,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.791767",
+        "frame": 3,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.791767",
+        "frame": 4,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.791767",
+        "frame": 5,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    },
+    {
+        "timestamp": "2025-05-18T20:30:00.791767",
+        "frame": 6,
+        "location": "Indo-Bangladesh border",
+        "alert_type": "Border Intrusion",
+        "person_count": 1,
+        "video_source": "final_alert_overlay.avi"
+    }
+]

@@ -1,0 +1,19 @@
+AI Models Used and Performance:
+
+- Geospatial Clustering: DBSCAN for hotspot detection, H3 for hexagonal spatial indexing.
+- Satellite Image Analysis: RGB band processing, anomaly detection on Sentinel-2 imagery.
+- Graph Neural Networks (GNN): Border crossing route prediction with 78% accuracy.
+- Signature Verification: Siamese neural networks achieving 85% precision in forgery detection.
+- Document OCR: AI-powered Optical Character Recognition for fake document detection.
+- NLP Models: GPT-4 and BERT variants for social media and policy text analysis.
+- Embeddings: LlamaCppEmbeddings and HuggingFace embeddings for semantic search.
+- Real-Time Alerts: Pipeline integrating multi-modal AI outputs for timely border enforcement.
+
+Limitations:
+- Cloud interference in satellite data.
+- Signature model struggles with very similar genuine/fake signatures.
+- Social media analysis requires continuous model retraining due to evolving language.
+
+Ongoing Improvements:
+- Incorporation of federated learning to leverage distributed data.
+- Enhancement of multimodal AI fusion techniques.

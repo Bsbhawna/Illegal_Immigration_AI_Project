@@ -1,0 +1,24 @@
+File: daily_summary.csv
+Columns: date, time, num_persons_detected
+
+Sample data:
+      date  time  num_persons_detected
+2025-05-08 00:00                     1
+2025-05-08 01:00                     0
+2025-05-08 02:00                     3
+2025-05-08 03:00                     2
+2025-05-08 04:00                     0
+
+Basic stats:
+              date   time  num_persons_detected
+count            7      7              7.000000
+unique           1      7                   NaN
+top     2025-05-08  00:00                   NaN
+freq             7      1                   NaN
+mean           NaN    NaN              1.571429
+std            NaN    NaN              1.902379
+min            NaN    NaN              0.000000
+25%            NaN    NaN              0.000000
+50%            NaN    NaN              1.000000
+75%            NaN    NaN              2.500000
+max            NaN    NaN              5.000000

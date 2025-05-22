@@ -1,0 +1,24 @@
+File: synthetic_ncrb_fake_docs.csv
+Columns: Year, State, Fake Aadhaar Cases, Fake Voter ID Cases, Fake Ration Card Cases, Fake Driving License Cases, Fake PAN Card Cases, Fake Passport Cases, Fake Visa Cases, Arrests, Source
+
+Sample data:
+ Year     State  Fake Aadhaar Cases  Fake Voter ID Cases  Fake Ration Card Cases  Fake Driving License Cases  Fake PAN Card Cases  Fake Passport Cases  Fake Visa Cases  Arrests        Source
+ 2021     Delhi                 377                   48                      13                         109                  100                   82               38      101 Media Article
+ 2021    Mumbai                 102                   42                      85                          69                   38                   27               21      141   NCRB Report
+ 2021   Kolkata                 308                   26                      81                          40                  196                  127               38      259 Media Article
+ 2021   Chennai                 192                   21                      30                         104                  138                  107               45      109   NCRB Report
+ 2021 Bangalore                 222                   46                      21                          63                   54                  111               54      165   NCRB Report
+
+Basic stats:
+              Year  State  Fake Aadhaar Cases  Fake Voter ID Cases  Fake Ration Card Cases  Fake Driving License Cases  Fake PAN Card Cases  Fake Passport Cases  Fake Visa Cases     Arrests       Source
+count     21.00000     21           21.000000            21.000000               21.000000                   21.000000            21.000000            21.000000        21.000000   21.000000           21
+unique         NaN      7                 NaN                  NaN                     NaN                         NaN                  NaN                  NaN              NaN         NaN            3
+top            NaN  Delhi                 NaN                  NaN                     NaN                         NaN                  NaN                  NaN              NaN         NaN  NCRB Report
+freq           NaN      3                 NaN                  NaN                     NaN                         NaN                  NaN                  NaN              NaN         NaN           11
+mean    2022.00000    NaN          241.809524            63.904762               58.619048                   79.190476           124.047619            79.571429        48.238095  173.142857          NaN
+std        0.83666    NaN          103.825632            40.127179               30.504879                   23.530021            52.640741            37.739332        23.775838   63.685387          NaN
+min     2021.00000    NaN           55.000000            20.000000               10.000000                   25.000000            38.000000            24.000000        20.000000   65.000000          NaN
+25%     2021.00000    NaN          167.000000            36.000000               30.000000                   63.000000            97.000000            48.000000        29.000000  117.000000          NaN
+50%     2022.00000    NaN          244.000000            49.000000               60.000000                   79.000000           123.000000            76.000000        43.000000  165.000000          NaN
+75%     2023.00000    NaN          326.000000            88.000000               85.000000                   99.000000           171.000000           107.000000        57.000000  215.000000          NaN
+max     2023.00000    NaN          393.000000           147.000000               99.000000                  111.000000           196.000000           148.000000        97.000000  300.000000          NaN

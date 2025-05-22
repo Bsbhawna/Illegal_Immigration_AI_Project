@@ -1,0 +1,2 @@
+models/*.pth filter=lfs diff=lfs merge=lfs -text
+/models/siamese_signature_model.pth filter=lfs diff=lfs merge=lfs -text

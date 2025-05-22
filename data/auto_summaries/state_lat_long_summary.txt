@@ -1,0 +1,24 @@
+File: state_lat_long.csv
+Columns: state, latitude, longitude
+
+Sample data:
+            state  latitude  longitude
+   Andhra Pradesh 15.924091  80.186381
+Arunachal Pradesh 28.093770  94.592133
+            Assam 26.407384  93.255130
+            Bihar 25.644085  85.906508
+     Chhattisgarh 21.663736  81.840635
+
+Basic stats:
+                 state   latitude  longitude
+count               28  28.000000  28.000000
+unique              28        NaN        NaN
+top     Andhra Pradesh        NaN        NaN
+freq                 1        NaN        NaN
+mean               NaN  23.057907  82.764458
+std                NaN   5.725797   7.394792
+min                NaN  10.352874  71.745261
+25%                NaN  20.134052  76.384030
+50%                NaN  23.794712  80.523023
+75%                NaN  26.890517  89.165580
+max                NaN  31.929235  94.592133

@@ -1,0 +1,15 @@
+Fake Document Analysis:
+
+- Using OCR, signature verification, and AI-based image analysis, several patterns emerged:
+- Forged passports and ID cards often had subtle watermark inconsistencies.
+- Signature forgery detection using Siamese networks achieved 80-85% precision.
+- AI flagged documents with altered dates and mismatched fonts.
+- Fake documents mostly sourced from underground networks across South Asia.
+- Increasing use of high-quality counterfeit holograms and laminations.
+- Document fraud closely linked with visa fraud and identity theft rings.
+- Detected fake documents led to multiple arrests in 2023 operations.
+
+Recommendations:
+- Integrate real-time document scanning at border checkpoints.
+- Use federated learning to improve AI models with new data continuously.
+- Strengthen legal framework for harsher penalties on document fraud.

@@ -1,0 +1,21 @@
+File: predicted_hotspot_clusters.csv
+Columns: Latitude, Longitude, Risk_Score, Distance_From_Border_KM, Is_High_Risk_Location, Is_High_Risk_Category, Category_Risk_Score, Location_Risk_Score, past_3m_incidents, Predicted_Hotspot
+
+Sample data:
+ Latitude  Longitude  Risk_Score  Distance_From_Border_KM  Is_High_Risk_Location  Is_High_Risk_Category  Category_Risk_Score  Location_Risk_Score  past_3m_incidents  Predicted_Hotspot
+26.915458  75.818982         2.0              1380.016519                      1                      0             0.567525             2.377251                  0                  0
+12.988157  77.622600         1.0              1623.220149                      0                      1             1.569018             0.376965                  0                  1
+26.838100  80.934600         2.0               900.381099                      1                      0             0.567525             2.381921                  0                  2
+27.876107  78.135815         1.0              1199.904198                      0                      1             1.557244             0.371837                  0                 12
+13.083694  80.270186         1.0              1423.854294                      0                      1             1.568095             0.369160                  0                  4
+
+Basic stats:
+         Latitude   Longitude  Risk_Score  Distance_From_Border_KM  Is_High_Risk_Location  Is_High_Risk_Category  Category_Risk_Score  Location_Risk_Score  past_3m_incidents  Predicted_Hotspot
+count  100.000000  100.000000  100.000000               100.000000             100.000000             100.000000           100.000000           100.000000              100.0         100.000000
+mean    22.285089   81.845529    1.030000              1054.808017               0.330000               0.370000             0.929222             1.033923                0.0           8.340000
+std      5.431021    7.871781    1.019556               640.648846               0.472582               0.485237             0.489382             0.946889                0.0           5.295739
+min     11.490528   65.610122    0.000000                68.581604               0.000000               0.000000             0.546437             0.362385                0.0           0.000000
+25%     18.521374   77.171695    0.000000               423.700269               0.000000               0.000000             0.548479             0.372450                0.0           4.000000
+50%     24.174599   78.474061    1.000000              1224.482065               0.000000               0.000000             0.564818             0.374623                0.0           9.000000
+75%     26.915458   88.363895    2.000000              1623.220149               1.000000               1.000000             1.557244             2.376326                0.0          12.000000
+max     28.627393   96.120426    3.000000              2381.151337               1.000000               1.000000             1.569018             2.381921                0.0          17.000000

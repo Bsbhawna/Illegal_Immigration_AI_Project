@@ -1,0 +1,24 @@
+File: alert_log_cctv_analysis.csv
+Columns: frame, timestamp, num_persons, alert
+
+Sample data:
+ frame timestamp  num_persons  alert
+     0  00:00:00            2  False
+     1  00:00:00            2  False
+     2  00:00:00            2  False
+     3  00:00:00            2  False
+     4  00:00:00            2  False
+
+Basic stats:
+             frame timestamp  num_persons  alert
+count   100.000000       100   100.000000    100
+unique         NaN        13          NaN      2
+top            NaN  00:00:00          NaN  False
+freq           NaN         8          NaN     91
+mean     49.500000       NaN     1.510000    NaN
+std      29.011492       NaN     0.904478    NaN
+min       0.000000       NaN     0.000000    NaN
+25%      24.750000       NaN     1.000000    NaN
+50%      49.500000       NaN     1.000000    NaN
+75%      74.250000       NaN     2.000000    NaN
+max      99.000000       NaN     5.000000    NaN

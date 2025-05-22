@@ -1,0 +1,24 @@
+File: alert_log_live_feed.csv
+Columns: Frame, Time (s), Timestamp, Persons Detected, Alert
+
+Sample data:
+ Frame  Time (s)           Timestamp  Persons Detected           Alert
+     1      0.00 2025-05-07 19:41:20                 2 Person Detected
+     2      0.12 2025-05-07 19:41:21                 2 Person Detected
+     3      0.25 2025-05-07 19:41:21                 2 Person Detected
+     4      0.38 2025-05-07 19:41:21                 2 Person Detected
+     5      0.50 2025-05-07 19:41:22                 2 Person Detected
+
+Basic stats:
+             Frame    Time (s)            Timestamp  Persons Detected            Alert
+count   100.000000  100.000000                  100        100.000000              100
+unique         NaN         NaN                   32               NaN                1
+top            NaN         NaN  2025-05-07 19:41:22               NaN  Person Detected
+freq           NaN         NaN                    4               NaN              100
+mean     52.470000    6.433800                  NaN          1.610000              NaN
+std      30.860866    3.857678                  NaN          0.863339              NaN
+min       1.000000    0.000000                  NaN          1.000000              NaN
+25%      25.750000    3.090000                  NaN          1.000000              NaN
+50%      51.500000    6.315000                  NaN          1.000000              NaN
+75%      79.250000    9.782500                  NaN          2.000000              NaN
+max     105.000000   13.000000                  NaN          5.000000              NaN

@@ -1,0 +1,21 @@
+Illegal Immigration Trends (2014-2024):
+
+- Data collected from NCRB, BOI, and field surveillance reveal a steady increase in illegal crossings from 2014 to 2019.
+- Peak illegal immigration years: 2017, 2018, with spikes related to regional unrest and economic migration.
+- Annual average illegal crossings recorded: approximately 20,000 to 35,000 persons/year.
+- Major source countries: Bangladesh, Myanmar, Nepal.
+- Illegal crossings concentrated in hotspots along the India-Bangladesh border in West Bengal, Assam, and Tripura.
+- Urban migration of illegal immigrants increased post 2018, linked to employment opportunities and family reunification.
+- Risk scoring indicates higher vulnerability in border districts with poor infrastructure and law enforcement.
+- Data also shows seasonal trends: higher crossings during monsoon due to reduced patrol visibility.
+
+Insights from Satellite & Geospatial AI:
+- DBSCAN clustering identified consistent hotspot zones.
+- Heatmaps show corridors with frequent crossings aligning with porous fencing and water bodies.
+- Satellite imagery detected unusual night movements, indicative of illegal crossings.
+
+Policy Impact:
+- After border fencing intensification in 2019, a noticeable dip in crossings was observed in some sectors.
+- Fake documents and visa fraud cases have risen, indicating shifting strategies by illegal entrants.
+
+Further monitoring recommended with enhanced AI-driven alerts and social media surveillance to detect emerging trends.

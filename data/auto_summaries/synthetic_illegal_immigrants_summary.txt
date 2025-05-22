@@ -1,0 +1,17 @@
+File: synthetic_illegal_immigrants.csv
+Columns: Date, Location, Country, Count, Category, Description, Source, Verification Status
+
+Sample data:
+      Date    Location     Country Count                        Category                                                                            Description       Source Verification Status
+2020-04-01      Jaipur  Bangladesh   179         Illegal Border Crossing             Illegal immigrants apprehended while crossing border via Bangladesh route.  Gov Reports          Unverified
+2024-06-27   Bangalore   Sri Lanka    40 Fake Documents / Identity Fraud                             Illegal immigrants caught with fake Passport in Bangalore.         CCTV            Reported
+2024-09-19     Lucknow       Nepal   373         Illegal Border Crossing             Illegal immigrants apprehended while crossing border via Bangladesh route.     Dark Web            Reported
+2022-10-14 Aligarh, UP   Sri Lanka   457 Terror Suspect / Radicalization Illegal immigrants under suspicion for radical activities, linked to extremist groups. Social Media           Confirmed
+2020-04-17     Chennai Afghanistan    22               Crime & Smuggling                                         Illegal immigrants involved in drug smuggling.     Dark Web            Reported
+
+Basic stats:
+              Date Location      Country    Count           Category                                                                             Description    Source Verification Status
+count          100      100          100      100                100                                                                                     100       100                 100
+unique         100       19            6       78                  8                                                                                      36         8                   3
+top     2020-04-01   Jaipur  Afghanistan  Unknown  Crime & Smuggling  Illegal immigrants under suspicion for radical activities, linked to extremist groups.  Dark Web          Unverified
+freq             1        9           20       16                 15                                                                                      13        18                  39

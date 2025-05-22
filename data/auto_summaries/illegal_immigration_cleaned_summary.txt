@@ -1,0 +1,24 @@
+File: illegal_immigration_cleaned.csv
+Columns: Date, Location, Country, Count, Category, Description, Source, Verification Status, Risk_Score
+
+Sample data:
+      Date    Location     Country  Count                        Category                                                                            Description       Source Verification Status  Risk_Score
+2020-04-01      Jaipur  Bangladesh  179.0         Illegal Border Crossing             Illegal immigrants apprehended while crossing border via Bangladesh route.  Gov Reports          Unverified           5
+2024-06-27   Bangalore   Sri Lanka   40.0 Fake Documents / Identity Fraud                             Illegal immigrants caught with fake Passport in Bangalore.         CCTV            Reported           0
+2024-09-19     Lucknow       Nepal  373.0         Illegal Border Crossing             Illegal immigrants apprehended while crossing border via Bangladesh route.     Dark Web            Reported           2
+2022-10-14 Aligarh, UP   Sri Lanka  457.0 Terror Suspect / Radicalization Illegal immigrants under suspicion for radical activities, linked to extremist groups. Social Media           Confirmed           2
+2020-04-17     Chennai Afghanistan   22.0               Crime & Smuggling                                         Illegal immigrants involved in drug smuggling.     Dark Web            Reported           0
+
+Basic stats:
+              Date Location      Country       Count           Category                                                                             Description    Source Verification Status  Risk_Score
+count          100      100          100  100.000000                100                                                                                     100       100                 100  100.000000
+unique         100       19            6         NaN                  8                                                                                      36         8                   3         NaN
+top     2020-04-01   Jaipur  Afghanistan         NaN  Crime & Smuggling  Illegal immigrants under suspicion for radical activities, linked to extremist groups.  Dark Web          Unverified         NaN
+freq             1        9           20         NaN                 15                                                                                      13        18                  39         NaN
+mean           NaN      NaN          NaN  211.830000                NaN                                                                                     NaN       NaN                 NaN    2.650000
+std            NaN      NaN          NaN  163.541553                NaN                                                                                     NaN       NaN                 NaN    1.754504
+min            NaN      NaN          NaN    0.000000                NaN                                                                                     NaN       NaN                 NaN    0.000000
+25%            NaN      NaN          NaN   48.500000                NaN                                                                                     NaN       NaN                 NaN    2.000000
+50%            NaN      NaN          NaN  205.000000                NaN                                                                                     NaN       NaN                 NaN    2.000000
+75%            NaN      NaN          NaN  363.000000                NaN                                                                                     NaN       NaN                 NaN    5.000000
+max            NaN      NaN          NaN  486.000000                NaN                                                                                     NaN       NaN                 NaN    5.000000

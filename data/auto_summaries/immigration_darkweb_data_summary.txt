@@ -1,0 +1,24 @@
+File: immigration_darkweb_data.csv
+Columns: Name, Document Type, Document ID, Location, Forged, Creation Date, Expiry Date, Fraudulent Activity Detected
+
+Sample data:
+            Name Document Type  Document ID    Location  Forged Creation Date Expiry Date  Fraudulent Activity Detected
+   Melanie Meyer      Passport 327056450867      Punjab   False    2020-06-09  2021-04-16                         False
+  Nicole Rosario      PAN Card 959295814330 West Bengal    True    2024-10-21  2020-09-07                          True
+     Ryan Dunlap      Voter ID 993125084857 West Bengal    True    2023-07-09  2023-03-30                         False
+Brittany Vasquez      Voter ID 295358292395 West Bengal    True    2020-05-23  2023-12-12                          True
+     Kevin Myers      PAN Card 371721342997      Punjab    True    2021-04-07  2023-12-02                         False
+
+Basic stats:
+                Name Document Type   Document ID     Location Forged Creation Date Expiry Date Fraudulent Activity Detected
+count            100           100  1.000000e+02          100    100           100         100                          100
+unique            99             4           NaN            6      2            99          96                            2
+top     Jordan Jones      PAN Card           NaN  West Bengal  False    2023-09-12  2023-12-02                         True
+freq               2            30           NaN           23     51             2           2                           54
+mean             NaN           NaN  5.226790e+11          NaN    NaN           NaN         NaN                          NaN
+std              NaN           NaN  2.985551e+11          NaN    NaN           NaN         NaN                          NaN
+min              NaN           NaN  5.716392e+09          NaN    NaN           NaN         NaN                          NaN
+25%              NaN           NaN  3.114882e+11          NaN    NaN           NaN         NaN                          NaN
+50%              NaN           NaN  4.920271e+11          NaN    NaN           NaN         NaN                          NaN
+75%              NaN           NaN  7.575638e+11          NaN    NaN           NaN         NaN                          NaN
+max              NaN           NaN  9.931251e+11          NaN    NaN           NaN         NaN                          NaN

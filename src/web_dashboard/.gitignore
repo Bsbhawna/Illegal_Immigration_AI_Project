@@ -1,0 +1,20 @@
+# Models
+*.pkl
+*.pth
+models/
+
+# Secrets
+.env
+config.yaml
+secrets.json
+
+# Data
+data/
+*.csv
+*.json
+
+# Logs
+*.log
+logs/
+alerts/
+

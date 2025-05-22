@@ -1,0 +1,24 @@
+File: darkweb_alerts.csv
+Columns: type, name, doc_type, location, fraud, forged, keyword, snippet_preview
+
+Sample data:
+type             name doc_type    location  fraud  forged  keyword  snippet_preview
+ CSV   Nicole Rosario PAN Card West Bengal   True    True      NaN              NaN
+ CSV      Ryan Dunlap Voter ID West Bengal  False    True      NaN              NaN
+ CSV Brittany Vasquez Voter ID West Bengal   True    True      NaN              NaN
+ CSV      Kevin Myers PAN Card      Punjab  False    True      NaN              NaN
+ CSV       Susan Carr PAN Card Maharashtra   True    True      NaN              NaN
+
+Basic stats:
+       type          name  doc_type     location fraud forged  keyword  snippet_preview
+count   100           100       100          100   100    100      0.0              0.0
+unique    1            99         4            6     2      2      NaN              NaN
+top     CSV  Jordan Jones  PAN Card  West Bengal  True   True      NaN              NaN
+freq    100             2        30           24    68     66      NaN              NaN
+mean    NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+std     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+min     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+25%     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+50%     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+75%     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN
+max     NaN           NaN       NaN          NaN   NaN    NaN      NaN              NaN

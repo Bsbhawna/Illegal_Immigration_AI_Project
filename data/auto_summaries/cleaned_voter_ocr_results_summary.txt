@@ -1,0 +1,17 @@
+File: cleaned_voter_ocr_results.csv
+Columns: filename, ocr_text, name_match, epic_match, match_found, cleaned_name, location
+
+Sample data:
+         filename                                                                                                                                                                                                                ocr_text  name_match  epic_match  match_found cleaned_name location
+   voter_id_1.jpg 4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic @ eril epic name suman gupta epic no: imt 1832169 address: patna fig epic epic iepic: mnt[ tanmni 21r1 3143 749        True       False        False  suman gupta    patna
+  voter_id_10.jpg   4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic @ eril epic name pooja kumar epic no. d28925747 address: delhi-pig epic epic iepic: mnt[ tanmni 21r1 3143 70j        True       False        False  pooja kumar    delhi
+ voter_id_100.jpg     4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic eril epic name priya yadav epic no: rze3222421 address: delhi fig epi epic iepic: mnt[ tanmni 21r1 3143 70j        True       False        False  priya yadav    delhi
+voter_id_1000.jpg  4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic @ epil epic name anita verma epic no.bc64697506 address: patna fig epic epic iepic: mnt[ tanmni 21r1 3143 7.01        True       False        False  anita verma    patna
+voter_id_1001.jpg   4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic @ eril epic name suman gupta epic nozogr8145331 address: patna fig epic epic iepic: mnt[ tanmni 21r1 3143 70j        True       False        False  suman gupta    patna
+
+Basic stats:
+              filename                                                                                                                                                                                                                 ocr_text name_match epic_match match_found  cleaned_name location
+count              100                                                                                                                                                                                                                      100        100        100         100           100      100
+unique             100                                                                                                                                                                                                                      100          2          2           2            14        7
+top     voter_id_1.jpg  4r7 fat:7 80 election commission of india tat7l de} 484lt 47 elector photo identity card epic e6ig epic @ eril epic name suman gupta epic no: imt 1832169 address: patna fig epic epic iepic: mnt[ tanmni 21r1 3143 749       True      False       False  geeta sharma   mumbai
+freq                 1                                                                                                                                                                                                                        1         95         99          99            13       25

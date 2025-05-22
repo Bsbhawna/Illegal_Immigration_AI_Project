@@ -1,0 +1,8 @@
+Q: What kind of social media analysis was done on illegal immigration?
+A: We monitored Twitter, Facebook, and regional social platforms for keywords like "illegal migration", "border crossing", and "visa fraud". Sentiment analysis and topic modeling helped identify emerging narratives and misinformation campaigns. Alerts were set for spikes in relevant conversations.
+
+Q: Were any visa fraud patterns detected from social media?
+A: Yes, clusters of discussions around fake visa documents and smuggling routes were detected. These were cross-verified with dark web monitoring results.
+
+Q: How was misinformation handled?
+A: We used NLP models to filter out noise and identify credible sources. Verified information was used to update the RAG knowledge base.

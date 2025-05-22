@@ -1,0 +1,21 @@
+# Ignore model files
+models/
+*.gguf
+
+# Ignore any checkpoints, weights
+*.pth
+*.pkl
+*.pt
+
+# Ignore datasets and logs
+data/logs/
+*.csv
+
+# Ignore temporary or system files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.DS_Store
+.env
+*.env
+

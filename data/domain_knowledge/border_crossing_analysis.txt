@@ -1,0 +1,15 @@
+Border Crossing Analysis:
+
+- Top 5 most crowded crossing frames identified by CCTV & satellite surveillance: Frames 249, 219, 57, 98, 203.
+- Border sectors with maximum crossings: India-Bangladesh (West Bengal, Assam), India-Myanmar (Nagaland), India-Nepal (Uttar Pradesh).
+- Frequent illegal crossing detected near riverine areas, where physical fencing is difficult.
+- Geospatial AI using H3 clustering and DBSCAN helped in identifying micro-hotspots.
+- Graph Neural Network (GNN) models predicted likely crossing points with 78% accuracy based on historical data.
+- Seasonal weather and agricultural cycles impact crossing patterns.
+- Real-time alerts integrated with local enforcement resulted in 15% higher interception rates.
+- Key challenges include terrain complexity, night-time movements, and disguises.
+
+Recommendations:
+- Increase multi-modal surveillance in hotspot corridors.
+- Deploy drone and satellite AI jointly for night vision.
+- Community outreach to reduce local complicity.

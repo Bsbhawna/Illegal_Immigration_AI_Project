@@ -1,0 +1,5 @@
+Q: What patterns are observed in visa fraud?
+A: Most visa fraud occurs through fake documents uploaded during visa applications, forged employer letters, or agents bypassing embassy channels. Peaks in fraud reports occurred in 2018 and 2022.
+
+Q: What technologies are used to detect visa fraud in this project?
+A: AI-based signature verification (Siamese network), OCR, and cross-checking metadata with government databases were used. Forged document detection pipelines are implemented with models trained on real and forged samples.

@@ -1,0 +1,14 @@
+Social Media Analysis:
+
+- Monitored multiple platforms: Twitter, Facebook, Reddit, YouTube, Telegram.
+- Detected coordinated misinformation campaigns targeting immigration debates.
+- Identified hate speech spikes correlating with border incidents.
+- NLP models flagged posts with false immigration statistics and rumors.
+- Bot detection revealed organized fake accounts spreading fake news.
+- Trend analysis showed increased discussions during major policy announcements.
+- Used GPT-based summarization for digesting large volumes of social media chatter.
+- Detected migration-related job scams advertised on social media.
+
+Recommendations:
+- Strengthen OSINT pipelines with multilingual NLP models.
+- Collaborate with social media platforms for early warnings.

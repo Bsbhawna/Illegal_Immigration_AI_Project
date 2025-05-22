@@ -1,0 +1,51 @@
+{
+    "total_alerts": 7565,
+    "total_fraud": 5007,
+    "total_forged": 5065,
+    "fraud_percent": 66.19,
+    "forged_percent": 66.95,
+    "most_common_doc_types": {
+        "PAN Card": 1920,
+        "Voter ID": 1886,
+        "Passport": 1882,
+        "Aadhaar Card": 1873
+    },
+    "state_summary": [
+        {
+            "location": "Assam",
+            "total_alerts": 1179,
+            "fraud_count": 755,
+            "forged_count": 794
+        },
+        {
+            "location": "Jammu-Kashmir",
+            "total_alerts": 1261,
+            "fraud_count": 835,
+            "forged_count": 863
+        },
+        {
+            "location": "Maharashtra",
+            "total_alerts": 1301,
+            "fraud_count": 882,
+            "forged_count": 844
+        },
+        {
+            "location": "Punjab",
+            "total_alerts": 1255,
+            "fraud_count": 829,
+            "forged_count": 868
+        },
+        {
+            "location": "Rajasthan",
+            "total_alerts": 1240,
+            "fraud_count": 823,
+            "forged_count": 834
+        },
+        {
+            "location": "West Bengal",
+            "total_alerts": 1325,
+            "fraud_count": 883,
+            "forged_count": 862
+        }
+    ]
+}
