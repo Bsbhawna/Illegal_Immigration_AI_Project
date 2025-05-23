@@ -13,7 +13,17 @@ print("✅ [streamlit_app] sys.path updated. Attempting import...")
 try:
     from web_dashboard.dashboard import main
     print("✅ Successfully imported `main` from web_dashboard.dashboard")
-    main()
+    
+    print("✅ About to start main()")
+    try:
+        main()
+        print("✅ main() finished successfully")
+    except Exception as e:
+        print(" Streamlit app crashed during main():")
+        print(f"Exception Type: {type(e).__name__}")
+        print(f"Exception Message: {e}")
+        traceback.print_exc()
+
 except Exception as e:
     print(" Streamlit app crashed during execution:")
     print(f"Exception Type: {type(e).__name__}")
