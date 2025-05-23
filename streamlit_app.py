@@ -1,31 +1,15 @@
+# streamlit_app.py
+
 import os
 import sys
-import traceback
 
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-SRC_DIR = os.path.join(CURRENT_DIR, "src")
+# Add src/ to sys.path so Streamlit can find your modules
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "src"))
+sys.path.append(PROJECT_ROOT)
 
-if SRC_DIR not in sys.path:
-    sys.path.append(SRC_DIR)
+# Import main function from the correct folder name 'web_dashboard'
+from web_dashboard.dashboard import main
 
-print("✅ [streamlit_app] sys.path updated. Attempting import...")
+if __name__ == "__main__":
+    main()
 
-try:
-    from web_dashboard.dashboard import main
-    print("✅ Successfully imported `main` from web_dashboard.dashboard")
-    
-    print("✅ About to start main()")
-    try:
-        main()
-        print("✅ main() finished successfully")
-    except Exception as e:
-        print(" Streamlit app crashed during main():")
-        print(f"Exception Type: {type(e).__name__}")
-        print(f"Exception Message: {e}")
-        traceback.print_exc()
-
-except Exception as e:
-    print(" Streamlit app crashed during execution:")
-    print(f"Exception Type: {type(e).__name__}")
-    print(f"Exception Message: {e}")
-    traceback.print_exc()

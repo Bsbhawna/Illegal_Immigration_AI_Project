@@ -8,8 +8,6 @@ import torch
 from pymongo import MongoClient
 from torchvision import transforms
 
-#import for downloading from Google Drive
-import gdown
 # ========== Project Root Setup ==========
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.append(PROJECT_ROOT)
@@ -22,21 +20,9 @@ from src.fake_document_detection.signature_verification.siamese_model import Sia
 # ========== Device Setup ==========
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
-SIGNATURE_MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "siamese_signature_model.pth")
-# Google Drive file ID for model
-signature_model_file_id = "1cpQs4P_QGjuci9qFdz8f6WGsAM6PKFDJ" 
-if not os.path.exists(SIGNATURE_MODEL_PATH):
-    os.makedirs(os.path.dirname(SIGNATURE_MODEL_PATH), exist_ok=True)
-    gdown.download(
-        f"https://drive.google.com/uc?id={signature_model_file_id}",
-        SIGNATURE_MODEL_PATH,
-        quiet=False
-    )
-
-
-
 # ========== Load Signature Verification Model ==========
+SIGNATURE_MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "siamese_signature_model.pth")
+
 signature_model = None
 if os.path.exists(SIGNATURE_MODEL_PATH):
     signature_model = SiameseNetwork()
