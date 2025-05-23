@@ -1,5 +1,6 @@
 # Core Data Libraries
 numpy==1.26.4
+cython==3.0.10
 pandas==2.2.3
 scikit-learn==1.4.2
 matplotlib==3.10.0
